@@ -1,0 +1,41 @@
+/* border-box includes the content size plus the border size plus the padding when calculating the width and height of elements.
+This simplifies width and height assignment.
+*/
+* {
+    -ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    font: 100% "Lato", sans-serif;
+    font-weight: 100;
+    color: #747704;
+}
+
+/* We want to center the 'Featured Work' title to the center when we reach this breakpoint */
+@media screen and (max-width: 992px) {
+	featured-work {
+		text-align: center;
+	}
+}
+
+.featured-work {
+	color: #BCBBBB;
+}
+
+.separator {
+    height: 2px;
+    background-color: #BCBBBB;
+}
+
+.rounded-border {
+	border: 2px;
+	border-color: #BCBBBB;
+}
+
+.portfolio-link {
+	text-transform:
+
+}
