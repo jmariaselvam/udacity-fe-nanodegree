@@ -8,15 +8,16 @@ This simplifies width and height assignment.
 	box-sizing: border-box;
 }
 
+/* Applying the Google "Lato" font for the page */
 body {
     font: 100% "Lato", sans-serif;
-    font-weight: 100;
     color: #747704;
+    margin-bottom: 20px;
 }
 
-/* We want to center the 'Featured Work' title to the center when we reach this breakpoint */
+/* We want to center the 'Featured Work' title to the center when we reach this breakpoint (as defined in Bootstrap) */
 @media screen and (max-width: 992px) {
-	featured-work {
+	.featured-work {
 		text-align: center;
 	}
 }
@@ -25,12 +26,21 @@ body {
 	color: #BCBBBB;
 }
 
+/* Footer block should have a margin at the bottom for adding some whitespace to the page */
+.featured-img-block {
+	margin-bottom: 10px;
+}
+
+/* Thickness of the horizontal rule */
 .separator {
     height: 2px;
     background-color: #BCBBBB;
 }
 
-.rounded-border {
-	border: 2px;
-	border-color: #BCBBBB;
+/* Personal image has a circular border like the Udacity logo */
+.img-personal {
+	margin-top: 15px;
+	margin-left: 15px;
+	border: solid 5px;
+	color: #F8981C;
 }
