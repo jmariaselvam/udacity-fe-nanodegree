@@ -23,7 +23,7 @@ body {
 }
 
 .featured-work {
-	color: #BCBBBB;
+	color: #bcbbbb;
 }
 
 /* Footer block should have a margin at the bottom for adding some whitespace to the page */
@@ -34,13 +34,16 @@ body {
 /* Thickness of the horizontal rule */
 .separator {
     height: 2px;
-    background-color: #BCBBBB;
+    background-color: #bcbbbb;
 }
 
 /* Personal image has a circular border like the Udacity logo */
 .img-personal {
-	margin-top: 15px;
-	margin-left: 15px;
+	margin: 15px 0 0 15px;
 	border: solid 5px;
 	color: #F8981C;
+}
+
+.copyright-footer {
+	margin: 30px 0 0 0;
 }
